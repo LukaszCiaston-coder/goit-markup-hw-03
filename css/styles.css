@@ -22,6 +22,7 @@ h6 {
 }
 .container {
     width: 1200px;
+    margin: auto;
     
 }
 .header {
@@ -124,6 +125,7 @@ h6 {
 
 .connect {
     display:flex;
+    justify-content: space-between;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
@@ -143,7 +145,7 @@ h6 {
 .number {
     color: #757575;
     text-decoration: none;
-    padding-right: 227px;
+    
 }
 
 .number:hover {
@@ -151,6 +153,9 @@ h6 {
 }
 
 .border-heading {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #2F303A;
     height: 600px;
     left: 0px;
@@ -166,7 +171,9 @@ h6 {
     color: #ffff
 }
 
+
 .bg {
+    
     background-color: #F5F4FA;
     border: none;
     cursor: pointer;
@@ -177,6 +184,7 @@ h6 {
     font-weight: 700;
     line-height: 1.87;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin: auto;
 }
 
 .bg:hover {
@@ -187,15 +195,24 @@ h6 {
 }
 .article {
     display:flex;
-    padding-left: 215px;
-    padding-right: 215px;
-}
-.product{
-    display:flex;
+    justify-content: space-between;
     
 }
+.product{
+
+    display:flex;
+    justify-content: space-around;
+    
+}
+.team-background {
+    background-color:#F5F4FA;
+}
+.team-gallery {
+    display:flex;
+    justify-content: space-around;
+}
 .button-rectangle {
-    display: flex;
+    display: flex;    
 }
 .rectangle {
     background-color: #F5F4FA;
@@ -207,9 +224,8 @@ h6 {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-margin: 4px;
+    margin: 4px;
 }
-
 .rectangle:hover {
     background-color: #2196F3;
     font-size: 16px;
@@ -218,8 +234,9 @@ margin: 4px;
 }
 .gallery-figure{
         display: flex;
-        justify-content: space-between;
+        justify-content: stretch;
         flex-wrap: wrap;
+        width: 1600px;
 }
 
 .border-text{
@@ -274,11 +291,15 @@ margin: 4px;
 }
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #2F303A;
     height: 252px;
     left: 0px;
     top: 2097px;
     border-radius: 0px;
+
 }
 
 .address {
