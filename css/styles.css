@@ -20,10 +20,15 @@ h6 {
     
 
 }
+h2 {
+    margin-bottom: 50px;
+}
 .container {
     width: 1200px;
-    margin: auto;
-    
+    margin: auto;  
+}
+.section{
+    padding: 94px 0px;
 }
 .header {
         display: flex;
@@ -183,7 +188,7 @@ h6 {
     font-weight: 700;
     line-height: 1.87;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    margin: auto;
+  margin:auto
 }
 
 .bg:hover {
@@ -194,7 +199,7 @@ h6 {
 }
 .article {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .product{
@@ -208,8 +213,10 @@ h6 {
 }
 .team-gallery {
     display:flex;
-    justify-content: space-around;
+    margin-left: auto;
+    
 }
+
 .button-rectangle {
     display: flex;    
 }
@@ -235,7 +242,7 @@ h6 {
         display: flex;
         justify-content: stretch;
         flex-wrap: wrap;
-        width: 1600px;
+        width: 1600px;  
 }
 
 .border-text{
@@ -277,13 +284,28 @@ h6 {
 }
 
 .name-john {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
     color: #212121;
 }
 
+.figure-johndoe{
+    width: 270px;
+    height: 368px;
+    padding: 0px;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px, 0px 1px 1px, 0px 2px 1px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+}
 .professional-position {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
     font-size: 16px;
     line-height: 1.17;
     color: #757575;
